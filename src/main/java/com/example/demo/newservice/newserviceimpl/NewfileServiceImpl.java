@@ -5,26 +5,26 @@ import com.example.demo.newentity.NewfileEntity;
 import com.example.demo.newservice.NewfileService;
 @Service
 public class NewfileServiceImpl implements NewfileService{
+   
+    private final NewfileRepo rep;
+    @Override
+    public NewfileEntity savedata(NewfileEntity newfile){
+ 
+    }
 
-}
-@Override
-public NewfileEntity savedata(NewfileEntity newfile){
+    @Override
+    public NewfileEntity getidval(Long id) {
 
-}
+    }
+    @Override
+    public List<NewfileEntity> getall() {
 
-@Override
-public NewfileEntity getidval(Long id) {
+    }
+    @Override
+    public NewfileEntity update(Long id, NewfileEntity newfile) {
 
-}
-@Override
-public List<NewfileEntity> getall() {
+    } 
 
-}
-@Override
-public NewfileEntity update(Long id, NewfileEntity newfile) {
-
-}
-
-@Override
-public void delete(Long id) {
+    @Override
+    public void delete(Long id) {
 }
